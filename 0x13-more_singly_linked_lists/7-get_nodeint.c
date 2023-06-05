@@ -5,7 +5,7 @@
  * @head: will be the first node in the linked list
  * @index: will be the index of the node that it outputs
  *
- * output: points to the node that is being searched, or output NULL
+ * Return: points to the node that is being searched, or output NULL
  */
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
