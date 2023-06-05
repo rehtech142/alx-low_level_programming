@@ -5,7 +5,7 @@
  * @head: poins to the first element in the list
  * @index: the index of the node ro be removed
  *
- * output: 1 (true), or -1 (false)
+ * Return: 1 (true), or -1 (false)
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
