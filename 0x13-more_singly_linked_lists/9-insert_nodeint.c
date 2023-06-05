@@ -7,7 +7,7 @@
  * @idx: index will now be where the new node is added
  * @n: the data will now input the new node
  *
- * output: points to the new node, or output  NULL
+ * Return: points to the new node, or output  NULL
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 {
