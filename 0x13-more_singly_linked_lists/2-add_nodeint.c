@@ -5,7 +5,7 @@
  * @head: now points to the first node in the list
  * @n: the data will now input the new node
  *
- * output: points to the new node, or output NULL if it fails
+ * Return: points to the new node, or output NULL if it fails
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
