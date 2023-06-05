@@ -4,7 +4,7 @@
  * pop_listint - removes the head node of the linked list
  * @head: now points to the first element in the linked list
  *
- * output: the info inside the elements that was removed,
+ * Return: the info inside the elements that was removed,
  * or output 0 if the list is empty
  */
 int pop_listint(listint_t **head)
